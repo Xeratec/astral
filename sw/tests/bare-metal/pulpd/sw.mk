@@ -50,5 +50,9 @@ pulpd-sw-all: $(PULPD_BUILD_TARGETS) $(PULPD_HEADER_TARGETS) $(PULPD_SLM_TARGETS
 
 pulpd-sw-clean:
 	# Clean all the directories in 'tests'
+	. $(CAR_ROOT)/env/pulpd-env.sh;  \
 	$(foreach dir, $(PULPD_TEST_DIRS), $(MAKE) -C $(dir) clean;)
 	$(RM) $(CAR_SW_DIR)/tests/bare-metal/pulpd/*.h
+	$(RM) $(CAR_SW_DIR)/tests/bare-metal/pulpd/*.elf
+	$(RM) $(CAR_SW_DIR)/tests/bare-metal/pulpd/*.dump
+	$(RM) $(CAR_SW_DIR)/tests/bare-metal/pulpd/*.slm

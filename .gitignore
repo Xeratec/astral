@@ -7,6 +7,8 @@ spatz
 /logs/
 /working_dir/
 /stdout
+tech/
+tech*/
 
 # Documentation site
 site/
