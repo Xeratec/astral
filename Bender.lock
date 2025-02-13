@@ -421,7 +421,7 @@ packages:
     - idma
     - register_interface
   pulp_cluster:
-    revision: a2ce77c4c718cd4737367035d9f679ebc0c8e10b
+    revision: ba524640f880b6b3aa40e3281168f9a599355f93
     version: null
     source:
       Git: https://github.com/Xeratec/pulp_cluster.git
