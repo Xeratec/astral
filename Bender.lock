@@ -422,7 +422,7 @@ packages:
     - idma
     - register_interface
   pulp_cluster:
-    revision: 0e9b351dc6b228bae045a9fee9db21f1e201cc3e
+    revision: 9ddd9181661b612c9eeee501fe3af177dbf7c940
     version: null
     source:
       Git: https://github.com/Xeratec/pulp_cluster.git
@@ -452,7 +452,7 @@ packages:
     - tech_cells_generic
     - timer_unit
   redmule:
-    revision: e0ad39ad49e7e71f2cfade0de0f8b18cfcd65165
+    revision: 9e1989455061e18769acda3a18e9237f1ed5e42c
     version: null
     source:
       Git: https://github.com/Xeratec/redmule.git
